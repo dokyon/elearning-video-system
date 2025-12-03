@@ -9,7 +9,7 @@
     "test": "vitest",
     "lint": "eslint . --ext .ts,.tsx",
     "typecheck": "tsc --noEmit",
-    "agents:parallel:exec": "miyabi agent run codegen"
+    "agents:parallel:exec": "npx --yes miyabi agent run codegen"
   },
   "keywords": [
     "agentic-os",
